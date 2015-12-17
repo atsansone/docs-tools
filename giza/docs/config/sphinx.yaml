@@ -43,6 +43,9 @@ singlehtml:
   inherit: root-base
   tags:
     - web
+text:
+  builder: text
+  inherit: web-base
 man:
   builder: man
   inherit: root-base
