@@ -46,6 +46,9 @@ singlehtml:
 text:
   builder: text
   inherit: web-base
+review:
+  builder: text
+  inherit: web-base
 man:
   builder: man
   inherit: root-base

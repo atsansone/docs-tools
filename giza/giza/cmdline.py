@@ -29,6 +29,7 @@ import giza.operations.make
 import giza.operations.packaging
 import giza.operations.build_env
 import giza.operations.quickstart
+import giza.operations.review
 import giza.operations.stage
 import giza.operations.sphinx_cmds
 import giza.operations.tx
@@ -112,6 +113,9 @@ commands = {
         giza.operations.tx.update_translations_transifex,
         giza.operations.tx.pull_translations,
         giza.operations.tx.push_translations,
+    ],
+    'review': [
+        giza.operations.review.stage,
     ],
 }
 
